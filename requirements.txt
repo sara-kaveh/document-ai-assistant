@@ -1,0 +1,7 @@
+faiss-cpu==1.15.0
+langchain_community==0.4.2
+langchain_core==1.5.3
+langchain_ollama==1.1.0
+langchain_text_splitters==1.1.2
+numpy==2.2.6
+sentence_transformers==5.6.1
