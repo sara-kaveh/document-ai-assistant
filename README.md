@@ -215,7 +215,7 @@ Make sure Ollama is running before starting the application.
 For example:
 
 ```bash
-uvicorn src.main:app --reload
+uvicorn src.api:app --reload
 ```
 
 The API will be available at:
