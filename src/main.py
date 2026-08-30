@@ -4,12 +4,12 @@ from pathlib import Path
 if __name__ == "__main__":
     sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
-from pdf_loader import load_pdf
-from text_splitter import SectionAwareSplitter
-from embedding_generator import EmbeddingGenerator
-from faiss_store import FAISSVectorStore
-from retriever import Retriever
-from llm import LLM
+from src.pdf_loader import load_pdf
+from src.text_splitter import SectionAwareSplitter
+from src.embedding_generator import EmbeddingGenerator
+from src.faiss_store import FAISSVectorStore
+from src.retriever import Retriever
+from src.llm import LLM
 from src.rag.rag_pipeline import RAGPipeline
 from src.rag.query_rewriter import QueryRewriter
 
